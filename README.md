@@ -1,12 +1,31 @@
-# React + Vite
+# React Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+This interactive web application, built with React.js and D3.js, visualizes key regional indicators across three major categories: Community, Transportation, and Economy. Designed for intuitive exploration and data-driven storytelling, the dashboard enables users to understand local trends and patterns through responsive, visually compelling charts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Categories & Indicators
 
-## Expanding the ESLint configuration
+### Community
+- Educational Attainment: Track changes in high school and college graduation rates over time.
+- Population Growth: Analyze demographic shifts across counties or metro areas.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Transportation
+- Bridge Conditions: Visualize the percentage of structurally deficient bridges and maintenance trends.
+- Commute Mode: Compare how residents travel (car, transit, biking, walking) across regions.
+- Miles Driven: View trends in vehicle miles traveled (VMT) as a proxy for mobility and congestion.
+
+### Economy
+- Business Formation: See how new business registrations have changed over time.
+-Job Growth: Examine employment trends and industry-level workforce expansion.
+
+## Features
+- Built with React.js for dynamic component rendering and smooth user interaction.
+- Uses D3.js for custom SVG-based charts including line graphs, bar charts, and stacked area visuals.
+- Filters for time range and geography allow tailored exploration of the data.
+- Responsive layout adapts to desktop and mobile devices for accessibility.
+- This app provides policymakers, planners, and the public with a clear, interactive window into the health and evolution of their region.
+
+## Dashboard Preview
+Attached are static snapshots of the dashboard. For the full interactive experience, access the live version [here](https://minimal-dash-v2.netlify.app/), and the code can be found [here](https://github.com/zmtcampo/cmp_portfolio_app).
+![1_react_dash](https://github.com/user-attachments/assets/8ff64470-4c9e-427e-a437-4d17d25aac3e)
