@@ -1,0 +1,252 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  color: #008085;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+h2 {
+  font-size: 2.4em;
+  line-height: 1.1;
+}
+h3 {
+  font-size: 1.8em;
+  line-height: 1.1;
+}
+h4 {
+  font-size: 1.4em;
+  line-height: 1.1;
+  border-top: 1px solid rgba(255, 255, 255, 0.8);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+  padding: 1em 0;
+  text-align: center;
+  margin: 30px auto;
+  font-weight: bold;
+}
+h4:nth-child(5) {
+  margin-top: 50px; /* Changed from margin-top to margin for proper spacing */
+}
+h4:nth-child(7) {
+  margin-top: 100px; /* Changed from margin-top to margin for proper spacing */
+}
+h5 {
+  font-size: 1.2em;
+  line-height: 1.1;
+}
+h6 {
+  font-size: 1em;
+  line-height: 1.1;
+}
+p {
+  margin: 0 0 0.5em;
+}
+
+ul,
+ol {
+  margin: 0 0 1.2em;
+  padding-left: 1.2em;
+}
+li {
+  margin: 0.2em 0;
+}
+code {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+pre {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+  font-size: 0.9em;
+  line-height: 1.4;
+  overflow-x: auto;
+  padding: 1em;
+  background-color: #111;
+  border-radius: 6px;
+}
+blockquote {
+  margin: 0 0 1.2em;
+  padding-left: 1.2em;
+  border-left: 4px solid #646cff;
+  color: rgba(255, 255, 255, 0.7);
+}
+hr {
+  margin: 1.2em 0;
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  color: inherit;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+input,
+select,
+textarea {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+input[type="text"],
+input[type="password"],
+input[type="search"],
+input[type="email"],
+input[type="url"],
+input[type="tel"],
+input[type="number"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="color"],
+input[type="radio"],
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+input[type="text"] {
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0.25rem;
+  background-color: #242424;
+  color: #fff;
+  font-size: 1rem;
+  width: 100%;
+  outline: none;
+}
+input[type="text"]:focus {
+  border-color: #646cff;
+  box-shadow: 0 0 0 2px rgba(100, 108, 255, 0.2);
+}
+input[type="text"]::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+input[type="text"]:disabled {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.5);
+}
+input[type="text"]:disabled::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+input[type="text"]::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+input[type="text"]::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+input[type="text"]:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+input[type="text"]::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+input[type="text"]::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+input[type="text"]:focus::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+input[type="text"]:focus::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+input[type="text"]:focus:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+input[type="text"]:focus::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+input[type="text"]:focus::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+input[type="text"]:disabled::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+input[type="text"]:disabled::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+input[type="text"]:disabled:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+input[type="text"]:disabled::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+input[type="text"]:disabled::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+input[type="text"]:disabled {
+  cursor: not-allowed;
+}
+input[type="text"]:disabled:focus {
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: none;
+}
+input[type="text"]:disabled:hover {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+input[type="text"]:disabled:active {
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: none;
+}
+input[type="text"]:disabled:focus::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+input[type="text"]:disabled:focus::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+input[type="text"]:disabled:focus:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+input[type="text"]:disabled:focus::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+.transform {
+  transition: transform 0.2s ease-in-out;
+}
+
+.hover\:scale-102:hover {
+  transform: scale(1.02);
+}
+
+/* Drawer custom styles */
+.ant-drawer-content-wrapper {
+  transition: transform 0.3s ease-in-out !important;
+}
+
+.ant-drawer-content {
+  background-color: #e5e7eb !important; /* gray-200 */
+}

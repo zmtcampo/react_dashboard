@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+.layout-item {
+  cursor: pointer;
+  position: relative;
+  border: 1px solid white;
+  transform: translateY(0);
+  transition: all 0.3s ease;
+  will-change: transform, box-shadow, border;
+  overflow: hidden;
+  min-height: 220px;
+}
+
+.layout-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(62, 132, 179, 0.849),
+    0 8px 16px rgba(0, 153, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.layout-item:active {
+  transform: translateY(-2px);
+  transition: all 0.1s;
+  box-shadow: 0 2px 4px rgba(0, 153, 255, 0.2);
+}
+
+.hover-text:hover {
+  filter: drop-shadow(1px 2px 0px rgba(0, 0, 0, 0.2));
+}
+
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+}
+
+.flip-card-front {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 1rem;
+}
+
+label {
+  font-weight: 600;
+  color: #ffffff !important;
+}
