@@ -27,5 +27,5 @@ This interactive web application, built with React.js and D3.js, visualizes key 
 - This app provides policymakers, planners, and the public with a clear, interactive window into the health and evolution of their region.
 
 ## Dashboard Preview
-Attached are static snapshots of the dashboard. For the full interactive experience, access the live version [here](https://minimal-dash-v2.netlify.app/), and the code can be found [here](https://github.com/zmtcampo/cmp_portfolio_app).
+Attached are static snapshots of the dashboard. For the full interactive experience, access the live version [here](https://minimal-dash-v2.netlify.app/), and the code can be found [here](https://github.com/zmtcampo/react_dashboard_minimal).
 ![1_react_dash](https://github.com/user-attachments/assets/8ff64470-4c9e-427e-a437-4d17d25aac3e)
